@@ -1,0 +1,31 @@
+<div class="album py-5 bg-grey">
+  <div class="card shadow-sm">
+    <img [src]="productData.image" alt="" />
+
+    <div class="card-body">
+      <p class="card-text">
+        {{ productData.label }}
+      </p>
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="btn-group">
+          <button
+            type="button"
+            class="btn btn-sm btn-outline-secondary"
+            [routerLink]="['/food-desc', productData.uri]"
+          >
+            View
+          </button>
+          <div class="btn-group">
+            <button
+              type="button"
+              class="btn btn-sm btn-outline-secondary"
+              href="productData.url"
+            >
+              Watch More
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

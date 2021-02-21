@@ -1,0 +1,12 @@
+<div class="container">
+  <h1>Recipe Description</h1>
+  <img [src]="productObj[0]?.image" alt="" />
+  <h4>Uri: {{ productObj[0]?.uri }}</h4>
+  <h4>Food Label : {{ productObj[0]?.label }}</h4>
+  <h4>URL: {{ productObj[0]?.url }}</h4>
+  <h4>Calories: {{ productObj[0]?.calories }}</h4>
+  <h4>dietLabels: {{ productObj[0]?.dietLabels }}</h4>
+  <h4>healthLabels: {{ productObj[0]?.healthLabels }}</h4>
+  <h4>ingredientLines: {{ productObj[0]?.ingredientLines }}</h4>
+  <h4>{{ productObj[0]?.totalNutrients.CA.label }}</h4>
+</div>
