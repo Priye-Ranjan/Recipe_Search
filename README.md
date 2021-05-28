@@ -1,5 +1,7 @@
 # Recipe
 
+**Demo Link**-  https://boring-lumiere-9ba8a4.netlify.app/
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.4.
 
 ## Development server
